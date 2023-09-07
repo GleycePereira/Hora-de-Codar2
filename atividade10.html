@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Java Script, usando operadores matemáticos">
+    <meta name="keywords" content="Java Script, operadores matemáticos, codar"> 
+    <meta name="author" content="Gleyce Pereira">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="pc.png">
+    <title>Hora de Codar 2</title>
+
+</head>
+
+<body>
+    <div class="page">
+        <script>
+        // 10. Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa, construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas:
+
+        alert("Informe seu sexo")
+        var genero = parseFloat(prompt("1-Feminino 2-Masculino"));
+        var h = parseFloat(prompt("Qual a sua altura?"))
+        var feminino = 1;
+        var masculino = 2;
+
+        var mulher = (61.1 * h) - 44.7;
+        var homem = (72.7 * h) - 58;
+
+        if (genero === feminino){
+            document.write("Seu pesso ideal é: " + mulher);
+        }else{
+            document.write("Seu peso ideal é: " + homem);
+        }
+
+
+        </script>
+    </div>
+
+    <p><a class="back" href="index.html"> Voltar </a></p>
+
+</body>
+
+</html>

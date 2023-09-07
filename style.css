@@ -1,0 +1,55 @@
+body{
+    background-image: url("walpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+li{
+    padding: 10px;
+    list-style-type:square;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+.page{
+    margin: auto;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    background-color: rgba(69, 116, 245, 0.349);
+    height: 35px;
+    margin: 350px 20px 0 0;
+
+    float: right;
+    padding: 5px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.back{
+    color: white;
+}
+

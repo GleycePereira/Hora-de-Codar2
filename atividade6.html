@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Java Script, usando operadores matemáticos">
+    <meta name="keywords" content="Java Script, operadores matemáticos, codar"> 
+    <meta name="author" content="Gleyce Pereira">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="pc.png">
+    <title>Hora de Codar 2</title>
+
+</head>
+
+<body>
+    <div class="page">
+        <script>
+            //6-Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)
+
+            var usuario_valor1 = parseInt(prompt("Informe 4 valores diferentes a seguir:"));
+            var usuario_valor2 = parseInt(prompt("Insira um valor:"));
+            var usuario_valor3 = parseInt(prompt("Insira um valor:"));
+            var usuario_valor4 = parseInt(prompt("Insira o último valor:"));
+
+            var valor_maior = Math.max(usuario_valor1, usuario_valor2, usuario_valor3, usuario_valor4);
+            document.write("O primeiro valor: " + usuario_valor1 + "<br>");
+            document.write("O último valor: " + usuario_valor4 + "<br>");
+            document.write("O maior valor digitado: " + valor_maior);
+
+        </script>
+    </div>
+
+    <p><a class="back" href="index.html"> Voltar </a></p>
+
+</body>
+
+</html>

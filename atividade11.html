@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Java Script, usando operadores matemáticos">
+    <meta name="keywords" content="Java Script, operadores matemáticos, codar"> 
+    <meta name="author" content="Gleyce Pereira">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="pc.png">
+    <title>Hora de Codar 2</title>
+
+</head>
+
+<body>
+    <div class="page">
+        <script>
+            // 11.Uma micro calculadora. Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações a serem executadas (codificada da seguinte forma: 1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação).
+            // O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos.
+
+            var num1 = parseInt(prompt("Digite um número:"));
+            var num2 = parseInt(prompt("Digite outro número"));
+            alert("Agora escolha uma operação matemática para realizar" )
+            var calc = prompt("1.Soma 2.Subtração 3.Divisão 4.Multiplicação");
+
+            var soma = num1 + num2;
+            var subtracao = num1 - num2;
+            var divisao = num1 / num2;
+            var multiplicacao = num1 * num2;
+
+            if (calc == 1){
+                document.write(soma);
+            }else if (calc == 2){
+                document.write(subtracao);
+            }else if (calc == 3){
+                document.write(divisao);
+            }else if (calc == 4){
+                document.write(multiplicacao)
+            }
+            
+
+
+        </script>
+    </div>
+
+    <p><a class="back" href="index.html"> Voltar </a></p>
+
+
+
+</body>
+
+</html>

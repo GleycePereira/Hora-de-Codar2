@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Java Script, usando operadores matemáticos">
+    <meta name="keywords" content="Java Script, operadores matemáticos, codar"> 
+    <meta name="author" content="Gleyce Pereira">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="pc.png">
+    <title>Hora de Codar 2</title>
+
+</head>
+
+<body>
+    <div class="page">
+        <script>
+            // 5.  Faça um programa que leia 6 valores informados pelo usuário, calcule, exiba os números informados e escreva a média aritmética desses valores lidos.
+            var numero1 = parseInt(prompt("Digite a seguir 6 números:"));
+            var numero2 = parseInt(prompt("Digite o segundo número:"));
+            var numero3 = parseInt(prompt("Digite o terceiro número:"));
+            var numero4 = parseInt(prompt("Digite o quarto número:"));
+            var numero5 = parseInt(prompt("Digite o quinto número:"));
+            var numero6 = parseInt(prompt("Digite o sexto número:"));
+
+            // Math.round = arrendodar número
+            var valor =(numero1 + numero2 + numero3 + numero4 + numero5 +numero6) /6;
+            var resultado = Math.round (valor);
+            document.write("Números digitados: " + numero1 + ", " + numero2 + ", " + numero3 + ", " + numero4 + ", " + numero5 + " e " + numero6 + "<br>");
+            document.write("A média aritmética dos números informados é: " + resultado);
+
+        </script>
+    </div>
+
+    <p><a class="back" href="index.html"> Voltar </a></p>
+
+</body>
+
+</html>

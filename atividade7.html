@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de Java Script, usando operadores matemáticos">
+    <meta name="keywords" content="Java Script, operadores matemáticos, codar"> 
+    <meta name="author" content="Gleyce Pereira">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="pc.png">
+    <title>Hora de Codar 2</title>
+
+</head>
+
+<body>
+    <div class="page">
+        <script>
+            // 7-Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.  
+
+            var numero1 = parseInt(prompt("Informe o primeiro número:"));
+            var numero2 = parseInt(prompt("Informe o segundo número:"));
+            var numero3 = parseInt(prompt("Informe o terceiro número:"));
+            var numero4 = parseInt(prompt("Informe o quarto número:"));
+            var numero5 = parseInt(prompt("Informe o quinto número:"));
+            var numero6 = parseInt(prompt("Informe o sexto número:"));
+            var soma = 0;
+
+            if(numero1 < 72){
+                soma += numero1;
+            }if(numero2 < 72){
+                soma += numero2;
+            }if(numero3 < 72){
+                soma += numero3;
+            }if(numero4 < 72){
+                soma += numero4;
+            }if(numero5 < 72){
+                soma += numero5;
+            }if(numero6 < 72){
+                soma += numero6;
+            }
+
+            document.write("Números digitados: " + numero1 + ", " + numero2 + ", " + numero3 + ", " + numero4 + ", " + numero5 + " e " + numero6 + "<br>" );
+            document.write("A soma dos números digitados inferiores a 72 são: " + soma)
+
+        </script>
+    </div>
+
+    <p><a class="back" href="index.html"> Voltar </a></p>
+
+</body>
+
+</html>

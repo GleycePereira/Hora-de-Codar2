@@ -3,5 +3,5 @@ A lógica de programação é a base fundamental da programação de computadore
 
 A hora de codar 2 traz mais desafios para desenvolver nosso lado programador, dessa vez levando questões um pouco mais complexa e desafiadora para codar, colocando em prática tudo que está sendo ensinando e sempre aprendendo novas formas de trabalhar.
 
-# Acesse a página aqui
+# Acesse o site aqui
 https://gleycepereira.github.io/Hora-de-Codar2/
